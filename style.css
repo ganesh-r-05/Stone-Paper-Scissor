@@ -66,6 +66,10 @@ img:hover{
         height: 10rem;
         width: 10rem;
     }
+
+    #text{
+        font-size: 25px;
+    }
 }
 
 @media (min-width:0px) and (max-width:612px){
@@ -77,5 +81,9 @@ img:hover{
 
     .selection{
         margin: 8px;
+    }
+
+    #text{
+        font-size: 25px;
     }
 }
