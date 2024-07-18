@@ -22,6 +22,7 @@ body{
     border-radius: 100%;
     border: 3px solid white ;
     cursor: pointer;
+    box-shadow: 2px 2px 20px 0px rgb(96, 96, 96);
 }
 
 img:hover{
@@ -46,20 +47,18 @@ img:hover{
     font-size: 30px;
 }
 
-button{
-    padding: 4px 14px;
-    font-size: 28px;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    display: block;
-    margin: auto;
+.text{
+    font-size: 30px;
+    background-color: #000010;
     padding: 5px 18px;
+    display: inline;
+    border-radius: 12px;
+    margin: 20px auto;
 }
 
-button:hover{
-    background-color: rgb(21, 21, 21);
-    cursor: pointer;
+#textbox{
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width:612px) and (max-width:901px){
